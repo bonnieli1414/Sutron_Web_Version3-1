@@ -1,0 +1,209 @@
+body {
+    color: $success;
+}
+h2 {
+    color: $info;
+}
+.bg-color-fourth {
+    background-color: $color-fourth;
+}
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 72px;
+    @include pad {
+        font-size: 44px;
+        line-height: 56px;
+    }
+    @include mobile {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    @include pad {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    @include mobile {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    @include pad {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    @include mobile {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+h4 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    @include pad {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    @include pad {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    @include mobile {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+h6 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    @include pad {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    @include mobile {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+.h6 {
+    font-size: 20px;
+    line-height: 28px;
+    @include pad {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    @include mobile {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+footer {
+    z-index: 1;
+    // 漢堡選單無法覆蓋在footer上，所以改父層的z-index，將header的z-index設定大於footer
+}
+.z-index-1 {
+    z-index: 1;
+}
+.z-index-2 {
+    z-index: 2;
+}
+.z-index-3 {
+    z-index: 3;
+}
+.w-45 {
+    width: 45%;
+}
+.w-sm-40 {
+    @include mobile {
+        width: 40%;
+    }
+}
+.w-76 {
+    width: 76px;
+    height: 76px;
+    @include mobile {
+        width: 40px;
+        height: 40px;
+    }
+}
+.w-316 {
+    width: 316px;
+    @include pad {
+        width: 252px;
+    }
+}
+.bold {
+    font-weight: 700;
+}
+.pt-80 {
+    padding-top: 80px;
+    @include pad {
+        padding-top: 60px;
+    }
+    @include mobile {
+        padding-top: 40px;
+    }
+}
+.pt-240 {
+    padding-top: 240px;
+    @include pad {
+        padding-top: 160px;
+    }
+    @include mobile {
+        padding-top: 130px;
+    }
+}
+.pb-80 {
+    padding-bottom: 80px;
+}
+.pb-140 {
+    padding-bottom: 140px;
+    @include pad {
+        padding-bottom: 100px;
+    }
+    @include mobile {
+        padding-bottom: 120px;
+    }
+}
+.py-34 {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    @include pad {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+    @include mobile {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+}
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    @include mobile {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+.py-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    @include pad {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    @include mobile {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+.pr-84 {
+    padding-right: 84px;
+    @include mobile {
+        padding-right: 0px;
+    }
+}
+.gap-28 {
+    gap: 28px 0px;
+}
