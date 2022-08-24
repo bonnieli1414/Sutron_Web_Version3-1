@@ -129,3 +129,8 @@ footer {
         border-bottom: 1px solid #fff;
     }
 }
+.border-sm-bottom {
+    @include mobile {
+        border-bottom: 1px solid #fff;
+    }
+}
