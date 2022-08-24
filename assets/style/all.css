@@ -19991,8 +19991,8 @@ header .accordion-button::after {
 footer .stron {
   height: 80px;
   background-color: #ECEDED;
-  -webkit-mask: url("../../../assets/images/stron-logo.png") no-repeat center center;
-  mask: url("../../../assets/images/smartphone.png") no-repeat center center;
+  -webkit-mask: url("../../assets/images/stron-logo.png") no-repeat center center;
+  mask: url("../../assets/images/smartphone.png") no-repeat center center;
   -webkit-mask-size: contain;
   mask-size: contain;
 }
@@ -20011,16 +20011,16 @@ footer .img-contact {
 
 footer .img-contact-phone {
   background-color: #ECEDED;
-  -webkit-mask: url("../../../assets/images/smartphone.png") no-repeat center center;
-  mask: url("../../../assets/images/smartphone.png") no-repeat center center;
+  -webkit-mask: url("../../assets/images/smartphone.png") no-repeat center center;
+  mask: url("../../assets/images/smartphone.png") no-repeat center center;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
 
 footer .img-contact-mail {
   background-color: #ECEDED;
-  -webkit-mask: url("../../../assets/images/mail.png") no-repeat center center;
-  mask: url("../../../assets/images/mail.png") no-repeat center center;
+  -webkit-mask: url("../../assets/images/mail.png") no-repeat center center;
+  mask: url("../../assets/images/mail.png") no-repeat center center;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
