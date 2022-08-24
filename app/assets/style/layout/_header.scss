@@ -60,4 +60,10 @@ header {
             left: 40%;           
         }
     }
+    .accordion {
+        @include pad {
+            height: 411px;
+            overflow-y: scroll;
+        }
+    }
 }
