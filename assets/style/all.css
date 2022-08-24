@@ -20002,7 +20002,7 @@ header .middle {
 
 @media screen and (max-width: 992px) {
   header .accordion {
-    height: 411px;
+    height: 345px;
     overflow-y: scroll;
   }
 }
