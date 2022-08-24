@@ -62,8 +62,8 @@ header {
     }
     .accordion {
         @include pad {
-            height: 345px;
-            overflow-y: scroll;
+            height: 349px;
+            overflow-y: auto;
         }
     }
 }

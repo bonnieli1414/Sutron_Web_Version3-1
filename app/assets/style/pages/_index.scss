@@ -32,7 +32,7 @@
             margin-top: 36px;
         }
     }
-    .btn-about {
+    .btn-about-1 {
         width: 160px;
         height: 60px;
         border-radius: 10px;
@@ -40,16 +40,19 @@
         @include pad {
             width: 120px;
             height: 50px;
-            margin-top: 50px;
-            margin-bottom: 60px;
         }
         @include mobile {
-            width: 100px;
-            height: 45px;
-            margin-top: 0px;
-            position: absolute;
-            left: 37%;
-            top: 1450%;
+            display: none;
+        }
+    }
+    .btn-about-2 {
+        width: 100px;
+        height: 45px;
+        border-radius: 10px;
+        display: none;
+        @include mobile {
+            display: block;
+            margin-top: 70px;
         }
     }
     .InGo-LG {
