@@ -265,6 +265,15 @@ $spacers: (
   13: $spacer * 3.25,
   14: $spacer * 3.5,
   15: $spacer * 3.75,
+  80: $spacer * 5,
+  84: $spacer * 5.25,
+  90: $spacer * 5.625,
+  100: $spacer * 6.25,
+  120: $spacer * 7.5,
+  130: $spacer * 8.125,
+  140: $spacer * 8.75,
+  160: $spacer * 10,
+  240: $spacer * 15,
 ) !default;
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
 // scss-docs-end spacer-variables-maps

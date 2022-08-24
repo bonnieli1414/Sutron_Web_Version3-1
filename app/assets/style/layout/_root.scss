@@ -8,7 +8,6 @@ h2 {
     background-color: $color-fourth;
 }
 h1 {
-    font-weight: 700;
     font-size: 56px;
     line-height: 72px;
     @include pad {
@@ -21,7 +20,6 @@ h1 {
     }
 }
 h2 {
-    font-weight: 700;
     font-size: 48px;
     line-height: 62px;
     @include pad {
@@ -34,7 +32,6 @@ h2 {
     }
 }
 h3 {
-    font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     @include pad {
@@ -47,7 +44,6 @@ h3 {
     }
 }
 h4 {
-    font-weight: 700;
     font-size: 28px;
     line-height: 36px;
     @include pad {
@@ -56,7 +52,6 @@ h4 {
     }
 }
 h5 {
-    font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     @include pad {
@@ -69,7 +64,6 @@ h5 {
     }
 }
 h6 {
-    font-weight: 700;
     font-size: 20px;
     line-height: 28px;
     @include pad {
@@ -119,90 +113,8 @@ footer {
         width: 40%;
     }
 }
-.w-76 {
-    width: 76px;
-    height: 76px;
-    @include mobile {
-        width: 40px;
-        height: 40px;
-    }
-}
-.w-316 {
-    width: 316px;
-    @include pad {
-        width: 252px;
-    }
-}
 .bold {
     font-weight: 700;
-}
-.pt-80 {
-    padding-top: 80px;
-    @include pad {
-        padding-top: 60px;
-    }
-    @include mobile {
-        padding-top: 40px;
-    }
-}
-.pt-240 {
-    padding-top: 240px;
-    @include pad {
-        padding-top: 160px;
-    }
-    @include mobile {
-        padding-top: 130px;
-    }
-}
-.pb-80 {
-    padding-bottom: 80px;
-}
-.pb-140 {
-    padding-bottom: 140px;
-    @include pad {
-        padding-bottom: 100px;
-    }
-    @include mobile {
-        padding-bottom: 120px;
-    }
-}
-.py-34 {
-    padding-top: 34px;
-    padding-bottom: 34px;
-    @include pad {
-        padding-top: 28px;
-        padding-bottom: 28px;
-    }
-    @include mobile {
-        padding-top: 14px;
-        padding-bottom: 14px;
-    }
-}
-.py-80 {
-    padding-top: 80px;
-    padding-bottom: 100px;
-    @include mobile {
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-}
-.py-120 {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    @include pad {
-        padding-top: 80px;
-        padding-bottom: 90px;
-    }
-    @include mobile {
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-}
-.pr-84 {
-    padding-right: 84px;
-    @include mobile {
-        padding-right: 0px;
-    }
 }
 .gap-28 {
     gap: 28px 0px;
