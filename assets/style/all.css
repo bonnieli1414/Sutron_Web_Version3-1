@@ -20000,6 +20000,13 @@ header .middle {
   }
 }
 
+@media screen and (max-width: 992px) {
+  header .accordion {
+    height: 411px;
+    overflow-y: scroll;
+  }
+}
+
 footer .stron {
   height: 80px;
   background-color: #ECEDED;
