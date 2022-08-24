@@ -20002,8 +20002,8 @@ header .middle {
 
 @media screen and (max-width: 992px) {
   header .accordion {
-    height: 345px;
-    overflow-y: scroll;
+    height: 349px;
+    overflow-y: auto;
   }
 }
 
@@ -20263,7 +20263,7 @@ footer {
   }
 }
 
-.page-index .btn-about {
+.page-index .btn-about-1 {
   width: 160px;
   height: 60px;
   border-radius: 10px;
@@ -20271,22 +20271,29 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  .page-index .btn-about {
+  .page-index .btn-about-1 {
     width: 120px;
     height: 50px;
-    margin-top: 50px;
-    margin-bottom: 60px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .page-index .btn-about {
-    width: 100px;
-    height: 45px;
-    margin-top: 0px;
-    position: absolute;
-    left: 37%;
-    top: 1450%;
+  .page-index .btn-about-1 {
+    display: none;
+  }
+}
+
+.page-index .btn-about-2 {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .page-index .btn-about-2 {
+    display: block;
+    margin-top: 70px;
   }
 }
 
