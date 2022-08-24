@@ -17812,27 +17812,11 @@ header .accordion-button:hover {
   opacity: 0.8;
 }
 header .accordion-button::after {
-  margin: 0 40%;
   background-color: #F5F5F5;
-}
-@media screen and (max-width: 767px) {
-  header .accordion-button::after {
-    margin: 0 32%;
-  }
-}
-header .middle {
-  top: 28%;
-  left: 46%;
-}
-@media screen and (max-width: 767px) {
-  header .middle {
-    top: 31%;
-    left: 40%;
-  }
 }
 @media screen and (max-width: 992px) {
   header .accordion {
-    height: 349px;
+    height: 368px;
     overflow-y: auto;
   }
 }
@@ -18034,6 +18018,18 @@ footer {
 
 .gap-28 {
   gap: 28px 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .border-md-top {
+    border-top: 1px solid #fff;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .border-md-bottom {
+    border-bottom: 1px solid #fff;
+  }
 }
 
 .page-index .arc {

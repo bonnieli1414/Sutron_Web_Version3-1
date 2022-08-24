@@ -119,3 +119,13 @@ footer {
 .gap-28 {
     gap: 28px 0px;
 }
+.border-md-top {
+    @include pad {
+        border-top: 1px solid #fff;
+    }
+}
+.border-md-bottom {
+    @include pad {
+        border-bottom: 1px solid #fff;
+    }
+}
