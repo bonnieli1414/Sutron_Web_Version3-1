@@ -20566,7 +20566,7 @@ footer {
 }
 
 .page-about .banner {
-  background-image: url("../../../assets/images/index/about1.jpg");
+  background-image: url("../../assets/images/index/about1.jpg");
   height: 300px;
   padding-left: 10%;
   background-size: cover;
@@ -20575,7 +20575,7 @@ footer {
 }
 
 .page-news .banner {
-  background-image: url("../../../assets/images/index/news1.jpg");
+  background-image: url("../../assets/images/index/news1.jpg");
   height: 300px;
   padding-right: 10%;
   background-size: cover;
