@@ -1,4 +1,21 @@
 .page-index {
+    .banner-Sutron-LG {
+        background-image: url("../../../assets/images/index/Sutron-LG.png");
+        padding-top: 700px / 1245px * 100%;
+        // height: 110vh;
+        background-size: contain;
+        @include image-replaces-text;
+        @include mobile {
+            display: none;
+        }
+    }
+    .transition {
+        transition: transform 1s;
+      }
+      .transition:hover .transition-scaleX-1 {
+        transform: scaleX(-1);
+      }
+      
     .arc {
         position: relative;
         width: 100%;
