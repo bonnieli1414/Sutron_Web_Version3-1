@@ -116,6 +116,16 @@ footer {
         width: 40%;
     }
 }
+.w-md-WH76 {
+    width: 76px;
+    height: 76px;
+}
+.w-sm-WH40 {
+    @include mobile {
+        width: 40px;
+        height: 40px;
+    }
+}
 .bold {
     font-weight: 700;
 }

@@ -1,14 +1,4 @@
 .page-index {
-    .banner-Sutron-LG {
-        background-image: url("../../../assets/images/index/Sutron-LG.png");
-        padding-top: 700px / 1245px * 100%;
-        // height: 110vh;
-        background-size: contain;
-        @include image-replaces-text;
-        @include mobile {
-            display: none;
-        }
-    }
     .transition {
         transition: transform 1s;
     }
@@ -16,7 +6,7 @@
         transform: scaleX(-1);
         @include mobile {
             transform:none;
-      }
+        }
     }
     .transition:active .transition-scaleX-1 {        
         @include mobile {
@@ -57,29 +47,6 @@
             margin-top: 36px;
         }
     }
-    .btn-about-1 {
-        width: 160px;
-        height: 60px;
-        border-radius: 10px;
-        margin-top: 70px;
-        @include pad {
-            width: 120px;
-            height: 50px;
-        }
-        @include mobile {
-            display: none;
-        }
-    }
-    .btn-about-2 {
-        width: 100px;
-        height: 45px;
-        border-radius: 10px;
-        display: none;
-        @include mobile {
-            display: block;
-            margin-top: 70px;
-        }
-    }
     .InGo-LG {
         width: 316px;
         padding-top: 34px;
@@ -94,18 +61,27 @@
             padding-bottom: 14px;
         }
     }
-    .box {
-        background: #ffffff1c;
-        width: 578px;
-        margin: 0 auto;
-        border-radius: 12px;
-        padding: 32px;
-        margin-top: 48px;
+    .btn-md-about {
+        // width: 160px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 70px;
+        @include pad {
+            width: 120px;
+            height: 50px;
+        }
         @include mobile {
-            width: 327px;
-            margin: 0 auto;
-            padding: 16px;
-            margin-top: 28px;
+            display: none;
+        }
+    }
+    .btn-sm-about {
+        display: none;
+        @include mobile {
+            display: block;
+            width: 100px;
+            height: 45px;
+            border-radius: 10px;
+            margin-top: 70px;
         }
     }
     .card {
@@ -162,25 +138,25 @@
             width: 158px;
         }
     }
-    .circle {
-        width: 76px;
-        height: 76px;
+    .box {
+        background-color: #ffffff1c;
+        width: 578px;
+        margin: 0 auto;
+        border-radius: 12px;
+        padding: 32px;
+        margin-top: 48px;
         @include mobile {
-            width: 40px;
-            height: 40px;
+            width: 327px;
+            margin: 0 auto;
+            padding: 16px;
+            margin-top: 28px;
         }
     }
     .circle-group1 {
         position: absolute;
         z-index: 1;
-        right: 5%;
-        bottom: -50%;
-        @include pad {
-            bottom: -70%;
-        }
-        @include mobile {
-            bottom: -40%;
-        }
+        right: 3%;
+        bottom: -220px;
     }
     .circle-2 {
         padding-bottom: 80px;
@@ -269,7 +245,6 @@
         }
     }
 }
-
 .page-about {
     .banner {
         background-image: url("../../assets/images/index/about1.jpg");
@@ -286,4 +261,3 @@
         @include banner;
     }
 }
-
