@@ -157,6 +157,9 @@
         z-index: 1;
         right: 3%;
         bottom: -220px;
+        @include mobile {
+            bottom: -150px;
+        }
     }
     .circle-2 {
         padding-bottom: 80px;
