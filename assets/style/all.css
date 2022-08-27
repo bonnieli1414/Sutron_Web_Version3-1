@@ -20037,6 +20037,10 @@ h2, .h2 {
   background-color: #ECEDED;
 }
 
+.bg-color-fifth {
+  background-color: #676665;
+}
+
 h1, .h1 {
   font-size: 56px;
   line-height: 72px;
@@ -20220,6 +20224,39 @@ footer {
   .border-sm-bottom {
     border-bottom: 1px solid #fff;
   }
+}
+
+.page-index .banner-Sutron-LG {
+  background-image: url("../../../assets/images/index/Sutron-LG.png");
+  padding-top: 56.2249%;
+  background-size: contain;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .page-index .banner-Sutron-LG {
+    display: none;
+  }
+}
+
+.page-index .transition {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  -o-transition: transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.page-index .transition:hover .transition-scaleX-1 {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 .page-index .arc {
