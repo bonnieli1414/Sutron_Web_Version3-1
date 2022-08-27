@@ -20200,6 +20200,18 @@ footer {
   }
 }
 
+.w-md-WH76 {
+  width: 76px;
+  height: 76px;
+}
+
+@media screen and (max-width: 767px) {
+  .w-sm-WH40 {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 .bold {
   font-weight: 700;
 }
@@ -20223,25 +20235,6 @@ footer {
 @media screen and (max-width: 767px) {
   .border-sm-bottom {
     border-bottom: 1px solid #fff;
-  }
-}
-
-.page-index .banner-Sutron-LG {
-  background-image: url("../../../assets/images/index/Sutron-LG.png");
-  padding-top: 56.2249%;
-  background-size: contain;
-  max-width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-indent: 101%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 767px) {
-  .page-index .banner-Sutron-LG {
-    display: none;
   }
 }
 
@@ -20315,40 +20308,6 @@ footer {
   }
 }
 
-.page-index .btn-about-1 {
-  width: 160px;
-  height: 60px;
-  border-radius: 10px;
-  margin-top: 70px;
-}
-
-@media screen and (max-width: 992px) {
-  .page-index .btn-about-1 {
-    width: 120px;
-    height: 50px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .page-index .btn-about-1 {
-    display: none;
-  }
-}
-
-.page-index .btn-about-2 {
-  width: 100px;
-  height: 45px;
-  border-radius: 10px;
-  display: none;
-}
-
-@media screen and (max-width: 767px) {
-  .page-index .btn-about-2 {
-    display: block;
-    margin-top: 70px;
-  }
-}
-
 .page-index .InGo-LG {
   width: 316px;
   padding-top: 34px;
@@ -20370,21 +20329,36 @@ footer {
   }
 }
 
-.page-index .box {
-  background: #ffffff1c;
-  width: 578px;
-  margin: 0 auto;
-  border-radius: 12px;
-  padding: 32px;
-  margin-top: 48px;
+.page-index .btn-md-about {
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 992px) {
+  .page-index .btn-md-about {
+    width: 120px;
+    height: 50px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .page-index .box {
-    width: 327px;
-    margin: 0 auto;
-    padding: 16px;
-    margin-top: 28px;
+  .page-index .btn-md-about {
+    display: none;
+  }
+}
+
+.page-index .btn-sm-about {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .page-index .btn-sm-about {
+    display: block;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 70px;
   }
 }
 
@@ -20476,35 +20450,29 @@ footer {
   }
 }
 
-.page-index .circle {
-  width: 76px;
-  height: 76px;
+.page-index .box {
+  background-color: #ffffff1c;
+  width: 578px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 32px;
+  margin-top: 48px;
 }
 
 @media screen and (max-width: 767px) {
-  .page-index .circle {
-    width: 40px;
-    height: 40px;
+  .page-index .box {
+    width: 327px;
+    margin: 0 auto;
+    padding: 16px;
+    margin-top: 28px;
   }
 }
 
 .page-index .circle-group1 {
   position: absolute;
   z-index: 1;
-  right: 5%;
-  bottom: -50%;
-}
-
-@media screen and (max-width: 992px) {
-  .page-index .circle-group1 {
-    bottom: -70%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .page-index .circle-group1 {
-    bottom: -40%;
-  }
+  right: 3%;
+  bottom: -220px;
 }
 
 .page-index .circle-2 {
