@@ -11,10 +11,18 @@
     }
     .transition {
         transition: transform 1s;
-      }
-      .transition:hover .transition-scaleX-1 {
+    }
+    .transition:hover .transition-scaleX-1 {
         transform: scaleX(-1);
+        @include mobile {
+            transform:none;
       }
+    }
+    .transition:active .transition-scaleX-1 {        
+        @include mobile {
+            transform: scaleX(-1);          
+        }
+    }
       
     .arc {
         position: relative;
