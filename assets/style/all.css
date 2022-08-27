@@ -20475,6 +20475,12 @@ footer {
   bottom: -220px;
 }
 
+@media screen and (max-width: 767px) {
+  .page-index .circle-group1 {
+    bottom: -150px;
+  }
+}
+
 .page-index .circle-2 {
   padding-bottom: 80px;
 }
