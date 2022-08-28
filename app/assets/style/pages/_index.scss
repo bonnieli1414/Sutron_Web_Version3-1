@@ -193,7 +193,7 @@
         height: 134px;
         top: 450%;
         right: 0%;
-        background-image: url("../../../assets/images/index/Background-Gray2.png");
+        background-image: url("../../assets/images/index/Background-Gray2.png");
         background-repeat: repeat-y;
         @include pad {
             top: 310%;
@@ -211,10 +211,10 @@
         height: 62px;
         top: 0;
         right: -70px;
-        background-image: url("../../../assets/images/index/Background-Gray.png");
+        background-image: url("../../assets/images/index/Background-Gray.png");
         background-repeat: no-repeat;
         @include mobile {
-            background-image: url("../../../assets/images/index/Background-Gray2.png");
+            background-image: url("../../assets/images/index/Background-Gray2.png");
             background-size: contain;
             width: 60x;
             height: 34px;
@@ -227,10 +227,10 @@
         height: 62px;
         top: -45px;
         left: -90px;
-        background-image: url("../../../assets/images/index/Background-Gray.png");
+        background-image: url("../../assets/images/index/Background-Gray.png");
         background-repeat: no-repeat;
         @include mobile {
-            background-image: url("../../../assets/images/index/Background-Gray2.png");
+            background-image: url("../../assets/images/index/Background-Gray2.png");
             background-size: contain;
             transform: rotate(90deg);
             width: 62px;
