@@ -20194,6 +20194,12 @@ footer {
   width: 45%;
 }
 
+@media screen and (max-width: 992px) {
+  .w-md-45 {
+    width: 45%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .w-sm-40 {
     width: 40%;
