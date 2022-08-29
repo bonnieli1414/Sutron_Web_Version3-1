@@ -111,6 +111,11 @@ footer {
 .w-45 {
     width: 45%;
 }
+.w-md-45 {
+    @include pad {
+        width: 45%;
+    }
+}
 .w-sm-40 {
     @include mobile {
         width: 40%;
