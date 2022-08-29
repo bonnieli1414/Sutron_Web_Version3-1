@@ -116,6 +116,11 @@ footer {
         width: 40%;
     }
 }
+.w-sm-75 {
+    @include mobile {
+        width: 75%;
+    }
+}
 .w-md-WH76 {
     width: 76px;
     height: 76px;

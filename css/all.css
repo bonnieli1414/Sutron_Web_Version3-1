@@ -18016,6 +18016,24 @@ footer {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .w-sm-75 {
+    width: 75%;
+  }
+}
+
+.w-md-WH76 {
+  width: 76px;
+  height: 76px;
+}
+
+@media screen and (max-width: 767px) {
+  .w-sm-WH40 {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 .bold {
   font-weight: 700;
 }
@@ -18042,29 +18060,6 @@ footer {
   }
 }
 
-.page-index .banner-Sutron-LG {
-  background-image: url("../../../assets/images/index/Sutron-LG.png");
-  padding-top: 56.2248995984%;
-  background-size: contain;
-  max-width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-indent: 101%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-@media screen and (max-width: 767px) {
-  .page-index .banner-Sutron-LG {
-    display: none;
-  }
-}
-.page-index .transition {
-  transition: transform 1s;
-}
-.page-index .transition:hover .transition-scaleX-1 {
-  transform: scaleX(-1);
-}
 .page-index .arc {
   position: relative;
   width: 100%;
@@ -18100,35 +18095,6 @@ footer {
     margin-top: 36px;
   }
 }
-.page-index .btn-about-1 {
-  width: 160px;
-  height: 60px;
-  border-radius: 10px;
-  margin-top: 70px;
-}
-@media screen and (max-width: 992px) {
-  .page-index .btn-about-1 {
-    width: 120px;
-    height: 50px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .page-index .btn-about-1 {
-    display: none;
-  }
-}
-.page-index .btn-about-2 {
-  width: 100px;
-  height: 45px;
-  border-radius: 10px;
-  display: none;
-}
-@media screen and (max-width: 767px) {
-  .page-index .btn-about-2 {
-    display: block;
-    margin-top: 70px;
-  }
-}
 .page-index .InGo-LG {
   width: 316px;
   padding-top: 34px;
@@ -18147,20 +18113,32 @@ footer {
     padding-bottom: 14px;
   }
 }
-.page-index .box {
-  background: rgba(255, 255, 255, 0.1098039216);
-  width: 578px;
-  margin: 0 auto;
-  border-radius: 12px;
-  padding: 32px;
-  margin-top: 48px;
+.page-index .btn-md-about {
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 992px) {
+  .page-index .btn-md-about {
+    width: 120px;
+    height: 50px;
+  }
 }
 @media screen and (max-width: 767px) {
-  .page-index .box {
-    width: 327px;
-    margin: 0 auto;
-    padding: 16px;
-    margin-top: 28px;
+  .page-index .btn-md-about {
+    display: none;
+  }
+}
+.page-index .btn-sm-about {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .page-index .btn-sm-about {
+    display: block;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 70px;
   }
 }
 .page-index .card {
@@ -18233,30 +18211,31 @@ footer {
     width: 158px;
   }
 }
-.page-index .circle {
-  width: 76px;
-  height: 76px;
+.page-index .box {
+  background-color: rgba(255, 255, 255, 0.1098039216);
+  width: 578px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 32px;
+  margin-top: 48px;
 }
 @media screen and (max-width: 767px) {
-  .page-index .circle {
-    width: 40px;
-    height: 40px;
+  .page-index .box {
+    width: 327px;
+    margin: 0 auto;
+    padding: 16px;
+    margin-top: 28px;
   }
 }
 .page-index .circle-group1 {
   position: absolute;
   z-index: 1;
-  right: 5%;
-  bottom: -50%;
-}
-@media screen and (max-width: 992px) {
-  .page-index .circle-group1 {
-    bottom: -70%;
-  }
+  right: 3%;
+  bottom: -220px;
 }
 @media screen and (max-width: 767px) {
   .page-index .circle-group1 {
-    bottom: -40%;
+    bottom: -150px;
   }
 }
 .page-index .circle-2 {
@@ -18295,7 +18274,7 @@ footer {
   height: 134px;
   top: 450%;
   right: 0%;
-  background-image: url("../../../assets/images/index/Background-Gray2.png");
+  background-image: url("../../assets/images/index/Background-Gray2.png");
   background-repeat: repeat-y;
 }
 @media screen and (max-width: 992px) {
@@ -18317,12 +18296,12 @@ footer {
   height: 62px;
   top: 0;
   right: -70px;
-  background-image: url("../../../assets/images/index/Background-Gray.png");
+  background-image: url("../../assets/images/index/Background-Gray.png");
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 767px) {
   .page-index .circle-7 {
-    background-image: url("../../../assets/images/index/Background-Gray2.png");
+    background-image: url("../../assets/images/index/Background-Gray2.png");
     background-size: contain;
     width: 60x;
     height: 34px;
@@ -18335,12 +18314,12 @@ footer {
   height: 62px;
   top: -45px;
   left: -90px;
-  background-image: url("../../../assets/images/index/Background-Gray.png");
+  background-image: url("../../assets/images/index/Background-Gray.png");
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 767px) {
   .page-index .circle-8 {
-    background-image: url("../../../assets/images/index/Background-Gray2.png");
+    background-image: url("../../assets/images/index/Background-Gray2.png");
     background-size: contain;
     transform: rotate(90deg);
     width: 62px;
@@ -18373,6 +18352,31 @@ footer {
   background-image: url("../../assets/images/index/news1.jpg");
   height: 300px;
   padding-right: 10%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.InGo-solution .banner-simple {
+  background-image: url("../../../assets/images/products/simple.png");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.InGo-solution .banner-integrate {
+  background-image: url("../../assets/images/products/integrate.png");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.InGo-solution .banner-analysis {
+  background-image: url("../../assets/images/products/analysis.png");
+  width: 80px;
+  height: 80px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
