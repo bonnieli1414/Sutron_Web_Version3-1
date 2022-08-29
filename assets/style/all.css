@@ -20200,6 +20200,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .w-sm-75 {
+    width: 75%;
+  }
+}
+
 .w-md-WH76 {
   width: 76px;
   height: 76px;
@@ -20235,36 +20241,6 @@ footer {
 @media screen and (max-width: 767px) {
   .border-sm-bottom {
     border-bottom: 1px solid #fff;
-  }
-}
-
-.page-index .transition {
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  -o-transition: transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
-}
-
-.page-index .transition:hover .transition-scaleX-1 {
-  -webkit-transform: scaleX(-1);
-      -ms-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-@media screen and (max-width: 767px) {
-  .page-index .transition:hover .transition-scaleX-1 {
-    -webkit-transform: none;
-        -ms-transform: none;
-            transform: none;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .page-index .transition:active .transition-scaleX-1 {
-    -webkit-transform: scaleX(-1);
-        -ms-transform: scaleX(-1);
-            transform: scaleX(-1);
   }
 }
 
@@ -20611,6 +20587,33 @@ footer {
   background-image: url("../../assets/images/index/news1.jpg");
   height: 300px;
   padding-right: 10%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.InGo-solution .banner-simple {
+  background-image: url("../../../assets/images/products/simple.png");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.InGo-solution .banner-integrate {
+  background-image: url("../../assets/images/products/integrate.png");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.InGo-solution .banner-analysis {
+  background-image: url("../../assets/images/products/analysis.png");
+  width: 80px;
+  height: 80px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
