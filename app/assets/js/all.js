@@ -21,8 +21,8 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
 // 1.先取DOM元素
-const boxShadow = document.querySelector('.box-shadow');
-const scrolled = document.querySelector('.scrolled');
+const boxShadow = document.querySelector('.js-box-shadow');
+const scrolled = document.querySelector('.js-scrolled');
 
 // 2. nav往下滑加上box-shadow
 const addBoxShadow = (entries, observer) =>{
