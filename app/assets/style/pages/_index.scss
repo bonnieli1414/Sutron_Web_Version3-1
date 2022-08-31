@@ -1,4 +1,19 @@
 .page-index {
+    .banner-sutron-lg {
+        background-image: url("../../assets/images/index/Sutron-LG.png");
+        height: 500px;
+        @include banner;
+    }
+    .banner-sutron-md {
+        background-image: url("../../assets/images/index/Sutron-SM.png");
+            height: 500px;
+            @include banner;
+    }
+    .banner-sutron-sm {
+        background-image: url("../../assets/images/index/Sutron-SM.png");
+            height: 400px;
+            @include banner;
+    }
     .banner-sutron {
         background-image: url("../../assets/images/index/Sutron-LG.png");
         height: 500px;
@@ -14,6 +29,8 @@
             @include banner;
         }
     }
+
+
     .arc {
         position: relative;
         width: 100%;

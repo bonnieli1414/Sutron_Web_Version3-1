@@ -17827,8 +17827,8 @@ header .accordion-button::after {
 footer .stron {
   height: 80px;
   background-color: #ECEDED;
-  -webkit-mask: url("../../assets/images/stron-logo.png") no-repeat center center;
-  mask: url("../../assets/images/stron-logo.png") no-repeat center center;
+  -webkit-mask: url("../../assets/images/Stron-G.png") no-repeat center center;
+  mask: url("../../assets/images/Stron-G.png") no-repeat center center;
   -webkit-mask-size: contain;
   mask-size: contain;
 }
@@ -18073,19 +18073,51 @@ footer {
   }
 }
 
-.page-index .banner-sutron-LG {
+.page-index .banner-sutron-lg {
   background-image: url("../../assets/images/index/Sutron-LG.png");
-  height: 600px;
+  height: 500px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-.page-index .banner-sutron-SM {
+.page-index .banner-sutron-md {
   background-image: url("../../assets/images/index/Sutron-SM.png");
-  height: 600px;
+  height: 500px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+.page-index .banner-sutron-sm {
+  background-image: url("../../assets/images/index/Sutron-SM.png");
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.page-index .banner-sutron {
+  background-image: url("../../assets/images/index/Sutron-LG.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 992px) {
+  .page-index .banner-sutron {
+    background-image: url("../../assets/images/index/Sutron-SM.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page-index .banner-sutron {
+    background-image: url("../../assets/images/index/Sutron-SM.png");
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
 }
 .page-index .arc {
   position: relative;
