@@ -36,8 +36,8 @@ AOS.init({
 
 }); // 1.先取DOM元素
 
-var boxShadow = document.querySelector('.box-shadow');
-var scrolled = document.querySelector('.scrolled'); // 2. nav往下滑加上box-shadow
+var boxShadow = document.querySelector('.js-box-shadow');
+var scrolled = document.querySelector('.js-scrolled'); // 2. nav往下滑加上box-shadow
 
 var addBoxShadow = function addBoxShadow(entries, observer) {
   entries.forEach(function (entry) {
