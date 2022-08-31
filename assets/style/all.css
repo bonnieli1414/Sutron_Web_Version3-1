@@ -20259,6 +20259,30 @@ footer {
   }
 }
 
+.page-index .banner-sutron-lg {
+  background-image: url("../../assets/images/index/Sutron-LG.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.page-index .banner-sutron-md {
+  background-image: url("../../assets/images/index/Sutron-SM.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.page-index .banner-sutron-sm {
+  background-image: url("../../assets/images/index/Sutron-SM.png");
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .page-index .banner-sutron {
   background-image: url("../../assets/images/index/Sutron-LG.png");
   height: 500px;
