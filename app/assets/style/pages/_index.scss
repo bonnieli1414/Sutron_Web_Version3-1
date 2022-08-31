@@ -1,4 +1,10 @@
 .page-index {
+    .banner-sutron {
+        background-image: url("../../assets/images/index/Sutron-LG.png");
+        // height: 700px;
+        height: 90vh;
+        @include banner;
+    }
     .arc {
         position: relative;
         width: 100%;
@@ -51,10 +57,6 @@
         height: 60px;
         border-radius: 10px;
         margin-top: 70px;
-        @include pad {
-            width: 120px;
-            height: 50px;
-        }
         @include mobile {
             display: none;
         }
