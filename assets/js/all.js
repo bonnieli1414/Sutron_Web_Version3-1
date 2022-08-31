@@ -34,5 +34,21 @@ AOS.init({
   // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom' // defines which position of the element regarding to window should trigger the animation
 
-});
+}); // 1.先取DOM元素
+
+var boxShadow = document.querySelector('.box-shadow');
+var scrolled = document.querySelector('.scrolled'); // 2. nav往下滑加上box-shadow
+
+var addBoxShadow = function addBoxShadow(entries, observer) {
+  entries.forEach(function (entry) {
+    if (!entry.isIntersecting) {
+      boxShadow.classList.add('scrolled');
+    } else {
+      boxShadow.classList.remove('scrolled');
+    }
+  });
+};
+
+var observer = new IntersectionObserver(addBoxShadow);
+observer.observe(scrolled);
 //# sourceMappingURL=all.js.map
