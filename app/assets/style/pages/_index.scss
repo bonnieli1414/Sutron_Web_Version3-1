@@ -1,8 +1,12 @@
 .page-index {
-    .banner-sutron {
+    .banner-sutron-LG {
         background-image: url("../../assets/images/index/Sutron-LG.png");
         height: 600px;
-        // height: 90vh;
+        @include banner;
+    }
+    .banner-sutron-SM {
+        background-image: url("../../assets/images/index/Sutron-SM.png");
+        height: 600px;
         @include banner;
     }
     .arc {
