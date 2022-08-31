@@ -20,3 +20,20 @@ AOS.init({
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
+// 1.先取DOM元素
+const boxShadow = document.querySelector('.box-shadow');
+const scrolled = document.querySelector('.scrolled');
+
+// 2. nav往下滑加上box-shadow
+const addBoxShadow = (entries, observer) =>{
+  entries.forEach(entry=>{
+    if(!entry.isIntersecting){
+      boxShadow.classList.add('scrolled');
+    }else{
+       boxShadow.classList.remove('scrolled');
+    }
+  })
+}
+
+let observer = new IntersectionObserver(addBoxShadow);
+observer.observe(scrolled);

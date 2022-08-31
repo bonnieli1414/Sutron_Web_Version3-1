@@ -17696,7 +17696,7 @@ textarea.form-control-lg {
     background-color: #fff;
     position: absolute;
     z-index: 9999;
-    top: 62px;
+    top: 65px;
     left: 0%;
     transform: translateY(-200%);
     transition: transform 0.5s;
@@ -17764,6 +17764,9 @@ ol, ul {
   list-style: none;
 }
 
+header .scrolled {
+  box-shadow: 0px 10px rgba(0, 0, 0, 0.1803921569);
+}
 header .list-menu-child {
   display: none;
 }
@@ -17825,7 +17828,7 @@ footer .stron {
   height: 80px;
   background-color: #ECEDED;
   -webkit-mask: url("../../assets/images/stron-logo.png") no-repeat center center;
-  mask: url("../../assets/images/smartphone.png") no-repeat center center;
+  mask: url("../../assets/images/stron-logo.png") no-repeat center center;
   -webkit-mask-size: contain;
   mask-size: contain;
 }
@@ -18010,6 +18013,10 @@ footer {
   width: 45%;
 }
 
+.w-60 {
+  width: 60%;
+}
+
 @media screen and (max-width: 992px) {
   .w-md-45 {
     width: 45%;
@@ -18066,6 +18073,13 @@ footer {
   }
 }
 
+.page-index .banner-sutron {
+  background-image: url("../../assets/images/index/Sutron-LG.png");
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .page-index .arc {
   position: relative;
   width: 100%;
@@ -18124,12 +18138,6 @@ footer {
   border-radius: 10px;
   margin-top: 70px;
 }
-@media screen and (max-width: 992px) {
-  .page-index .btn-md-about {
-    width: 120px;
-    height: 50px;
-  }
-}
 @media screen and (max-width: 767px) {
   .page-index .btn-md-about {
     display: none;
@@ -18141,7 +18149,7 @@ footer {
 @media screen and (max-width: 767px) {
   .page-index .btn-sm-about {
     display: block;
-    width: 100px;
+    width: 140px;
     height: 45px;
     border-radius: 10px;
     margin-top: 70px;
