@@ -21614,6 +21614,16 @@ footer {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.InGo-solution .half-ellipse {
+  border-radius: 10% 10% 40% 10%;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.InGo-solution .card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2509803922);
+  transform: translateY(-15px);
+  transition: all 0.5s ease 0s;
+}
 
 .page-contact .map {
   width: 80%;
