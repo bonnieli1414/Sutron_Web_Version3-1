@@ -21614,6 +21614,29 @@ footer {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.InGo-solution .arc {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+.InGo-solution .arc:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  content: " ";
+  height: 120px;
+  width: 100%;
+  border-radius: 0 0 50% 50%;
+  background-color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .InGo-solution .arc:after {
+    height: 90px;
+    bottom: -60px;
+    border-radius: 0 0 50% 50%;
+  }
+}
 .InGo-solution .half-ellipse {
   border-radius: 10% 10% 40% 10%;
   padding-top: 20px;

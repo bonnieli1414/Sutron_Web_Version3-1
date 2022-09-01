@@ -17,6 +17,29 @@
         height: 80px;
         @include banner;
     }
+    .arc {
+        position: relative;
+        width: 100%;
+        background-color: #fff;
+    }
+    .arc:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+    //   bottom: -100px;
+      z-index: 2;
+      content: ' ';
+      height: 120px;
+      width: 100%;
+      border-radius: 0 0 50% 50%;
+      background-color: #fff;
+      @include mobile {
+        height: 90px;
+        bottom: -60px;
+        border-radius: 0 0 50% 50%;
+        
+      }
+    }
     .half-ellipse {
         border-radius: 10% 10% 40% 10%;
         padding-top: 20px;
@@ -31,5 +54,6 @@
         -ms-transition: all 0.5s ease 0s;
         transition: all 0.5s ease 0s;
     }
+
     
 }
