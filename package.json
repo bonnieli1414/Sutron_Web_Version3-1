@@ -17,6 +17,7 @@
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
+    "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "autoprefixer": "^9.8.6",
     "bootstrap": "^5.0.2",

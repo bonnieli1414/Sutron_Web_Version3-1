@@ -37,6 +37,7 @@ let envOptions = {
     includePaths: [
       `${nodePath}/bootstrap/scss`,
       `${nodePath}/aos/dist/aos.css`, //aos套件
+      `${nodePath}/animate.css/animate.min.css`, //animate套件
     ],
     path: `${distPath}/assets/style`,
   },
