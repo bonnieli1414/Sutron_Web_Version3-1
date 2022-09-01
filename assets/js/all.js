@@ -11,7 +11,7 @@ AOS.init({
   // class applied after initialization
   animatedClassName: 'aos-animate',
   // class applied on animation
-  useClassNames: false,
+  useClassNames: true,
   // if true, will add content of `data-aos` as classes on scroll
   disableMutationObserver: false,
   // disables automatic mutations' detections (advanced)

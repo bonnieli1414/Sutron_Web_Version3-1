@@ -8,7 +8,8 @@
   <meta name="format-detection" content="telephone=no">
 
   <title>InGo-solution</title>
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
@@ -187,13 +188,13 @@
         
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+        <button type="button" class="btn btn-primary me-2 animate__animated animate__flip animate__delay-0.4s" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
             <h6 class="text-white">InGo積木平台</h6>
         </button>
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-secondary">
               <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">InGo積木平台</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -210,13 +211,13 @@
 
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+        <button type="button" class="btn btn-warning me-2 animate__animated animate__flipInY animate__delay-0.8s" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
             <h6 class="text-white">InGo設備平台</h6>
         </button>
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-secondary">
               <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">InGo設備平台</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -233,13 +234,14 @@
 
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn bg-color-fifth me-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+        <button type="button" class="btn bg-color-fifth me-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop3"
+        data-aos="animate__animated animate__shakeX" data-aos-duration="1500">
             <h6 class="text-white">InGo人機平台</h6>
         </button>
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content bg-secondary">
               <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">InGo人機平台</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -256,7 +258,7 @@
 
 
 
-        <section class="row d-flex justify-content-center py-6">
+        <section class="row d-flex justify-content-center pt-15 pb-6">
             <div class="col-8 col-md-6 col-lg-4 mb-3">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                     <img src="./assets/images/products/product-IoT/LinkIt_7697.png" class="card-img-top" alt="LinkIt_7697開發板">
@@ -450,7 +452,9 @@
       </div>
     </div>
   </footer>
+  
   <script src="./assets/js/vendors.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
 </html>
