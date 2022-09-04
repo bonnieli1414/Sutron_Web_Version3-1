@@ -24818,9 +24818,16 @@ footer {
   border: 1px solid #DEE2E6;
 }
 
+@media screen and (max-width: 992px) {
+  .member {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .member {
-    max-width: 360px;
+    max-width: 320px;
     margin: 0 auto;
   }
 }
