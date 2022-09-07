@@ -37,3 +37,60 @@ const addBoxShadow = (entries, observer) =>{
 
 let observer = new IntersectionObserver(addBoxShadow);
 observer.observe(scrolled);
+
+
+// 留言表單傳送
+const submitForm = document.querySelector(".submitForm");
+const submitBtn = document.querySelector(".submitBtn");
+// const addOrderInput = document.querySelectorAll(".orderInfo-inputWrap");
+// const error = document.querySelectorAll(".text-danger");
+const name = document.querySelector("#name");
+const tel = document.querySelector("#tel");
+const email = document.querySelector("#email");
+const opinion = document.querySelector("#opinion");
+const corsURL = 'https://cors-anywhere.herokuapp.com/'; // use cors-anywhere to fetch api data
+const apiURL = 'https://quiet-stream-10215.herokuapp.com/api/product'; // origin api url
+
+axios
+.get(`${corsURL}${apiURL}`, {
+})
+.then((response) => (console.log(response))) // 把结果集传到info这个数组
+.catch((error) => {
+    console.warn(error);
+});
+// submitBtn.addEventListener("click",(e)=>{
+//   e.preventDefault;
+//   // console.log(e.target);
+//   let obj = {
+//     name : name.value,
+//     tel : tel.value,
+//     email : email.value,
+//     opinion : opinion.value
+//   }
+
+//   // console.log(obj);
+//   sendMsg(obj,url);
+// });
+
+// function init(){
+//   getInf(url);
+// };
+// init();
+
+
+// function sendMsg(obj,url) {
+  
+//   axios.post(url, {
+//     "messageBoard": obj
+//   })
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.error(err);
+//   });
+// };
+
+
+
+
