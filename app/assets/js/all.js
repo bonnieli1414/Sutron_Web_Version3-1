@@ -54,7 +54,7 @@ const apiURL = 'https://quiet-stream-10215.herokuapp.com/api/product'; // origin
 axios
 .get(`${corsURL}${apiURL}`, {
 })
-.then((response) => (console.log(response))) // 把结果集传到info这个数组
+.then((response) => {console.log(response);}) // 把结果集传到info这个数组
 .catch((error) => {
     console.warn(error);
 });
