@@ -50,5 +50,50 @@ var addBoxShadow = function addBoxShadow(entries, observer) {
 };
 
 var observer = new IntersectionObserver(addBoxShadow);
-observer.observe(scrolled);
+observer.observe(scrolled); // 留言表單傳送
+
+var submitForm = document.querySelector(".submitForm");
+var submitBtn = document.querySelector(".submitBtn"); // const addOrderInput = document.querySelectorAll(".orderInfo-inputWrap");
+// const error = document.querySelectorAll(".text-danger");
+
+var name = document.querySelector("#name");
+var tel = document.querySelector("#tel");
+var email = document.querySelector("#email");
+var opinion = document.querySelector("#opinion");
+var corsURL = 'https://cors-anywhere.herokuapp.com/'; // use cors-anywhere to fetch api data
+
+var apiURL = 'https://quiet-stream-10215.herokuapp.com/api/product'; // origin api url
+
+axios.get("".concat(corsURL).concat(apiURL), {}).then(function (response) {
+  console.log(response);
+}) // 把结果集传到info这个数组
+["catch"](function (error) {
+  console.warn(error);
+}); // submitBtn.addEventListener("click",(e)=>{
+//   e.preventDefault;
+//   // console.log(e.target);
+//   let obj = {
+//     name : name.value,
+//     tel : tel.value,
+//     email : email.value,
+//     opinion : opinion.value
+//   }
+//   // console.log(obj);
+//   sendMsg(obj,url);
+// });
+// function init(){
+//   getInf(url);
+// };
+// init();
+// function sendMsg(obj,url) {
+//   axios.post(url, {
+//     "messageBoard": obj
+//   })
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.error(err);
+//   });
+// };
 //# sourceMappingURL=all.js.map
