@@ -24137,6 +24137,25 @@ h3, .h3 {
   }
 }
 
+.h3 {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+@media screen and (max-width: 992px) {
+  .h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
 h4, .h4 {
   font-size: 28px;
   line-height: 36px;
